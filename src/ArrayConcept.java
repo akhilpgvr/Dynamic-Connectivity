@@ -1,10 +1,11 @@
 public class ArrayConcept {
 
-    int[] id = new int[10];
+    int[] id;
 
     public void quickFind(int size) {
 
         //creating an array of given size
+        id = new int[size];
         for(int i=0; i<size; i++) {
             id[i] = i;
         }
